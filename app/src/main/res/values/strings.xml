@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <string name="action_delete_all_entries">Delete All Contacts</string>
+
+    <string name="empty_view_subtitle_text">Get started by adding a contact</string>
+
+    <string name="editor_activity_title_new_contact">Add Contact</string>
+
+    <string name="editor_activity_title_edit_contact">Edit Contact</string>
+
+    <string name="editor_activity_title_edit_search">Search Contact</string>
+
+    <string name="action_save">Save</string>
+
+    <string name="action_delete">Delete</string>
+
+    <string name="editor_insert_contact_successful">Contact saved</string>
+
+    <string name="editor_insert_contact_failed">Error with saving contact</string>
+
+    <string name="editor_update_contact_successful">Contact updated</string>
+
+    <string name="editor_update_contact_failed">Error with updating contact</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="editor_delete_contact_successful">Contact deleted</string>
+
+    <string name="editor_delete_contact_failed">Error with deleting contact</string>
+
+    <string name="delete_dialog_msg">Delete this contact?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="error_edittext">This can\'t be blank</string>
+
+    <string name="number_of_contacts">Number of Contacts</string>
+
+    <string name="no_contacts">No Contacts</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zipcode">ZipCode</string>
+    <string name="valid_number">Please enter a valid number \nEg: +1 647 555 5555 \nor +91 903 555 5555</string>
+    <string name="valid_email">Enter a valid email</string>
+    <string name="regx_email"><![CDATA[^[a-zA-Z0-9_!#$%&’*+/=?`{|}~^-]+(?:\\.[a-zA-Z0-9_!#$%&’*+/=?`{|}~^-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$]]></string>
+    <string name="regex_phone">^(\\+\\d{1,2}\\s?)?1?\\-?\\.?\\s?\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}$</string>
+
+</resources>

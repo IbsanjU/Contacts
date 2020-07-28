@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".AddEditActivity">
+
+
+    <EditText
+        android:id="@+id/et_FN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_first_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_LN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_last_name"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:imeOptions="actionNext"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/et_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/street"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords|textPostalAddress" />
+
+
+    <EditText
+        android:id="@+id/et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/city"
+        android:imeOptions="actionNext"
+        android:inputType="textCapWords|textPostalAddress" />
+
+
+    <EditText
+        android:id="@+id/et_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/state"
+        android:imeOptions="actionNext"
+        android:inputType="textPostalAddress|textCapCharacters" />
+
+
+    <EditText
+        android:id="@+id/et_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/zipcode"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+</LinearLayout>
